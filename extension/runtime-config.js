@@ -1,0 +1,26 @@
+globalThis.BRS_CONFIG = globalThis.BRS_CONFIG || {
+  brokerWs: 'ws://broker:17890/extension',
+  stealth: {
+    mode: 'trusted-real-browser',
+    enabled: false,
+    profile: 'standard',
+    headersEnabled: false,
+    patchesEnabled: false,
+    canvasNoise: false,
+    audioNoise: false,
+    acceptLanguage: 'en-US,en;q=0.9',
+    languages: ['en-US', 'en'],
+    locale: 'en-US',
+    timezone: 'UTC',
+    platform: '',
+    userAgent: '',
+    webglVendor: '',
+    webglRenderer: '',
+    extraHeaders: {},
+    tlsGateway: {
+      enabled: true,
+      proxyServer: '',
+      active: false,
+    },
+  },
+};

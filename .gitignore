@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+**/node_modules/
+**/__pycache__/
+*.pyc
+data/
+output/
+artifacts/
+runtime/profile/
+tmp/
+*.xlsx
+*.xls
+*.har
+cookies*
+*.log
